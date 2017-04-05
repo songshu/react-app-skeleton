@@ -13,4 +13,7 @@ Yarn package manager (install: https://yarnpkg.com/lang/en/docs/install/)
 ## Install dependencies:
 Run 'yarn install' to install all dependencies inside package.json
 
+## Starting app.
+Run 'yarn start' to start up the server.
+
 Enjoy & use at your own discretion.
