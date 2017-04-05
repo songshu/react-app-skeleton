@@ -1,0 +1,34 @@
+//$bg-color: #3ba1df 145068 01a983
+$bg-color: #145068;
+$fg-color: #fff;
+
+.navbar {
+  position:fixed;
+  width: 100%;
+  bottom: 0;
+  background: $bg-color;
+  border-radius: 1em 1em 0 0;
+  text-align: center;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.5em 0em;
+  margin: 0 0.25% 0 0.25%;
+  width: 19%;
+
+  border-radius: 0.5em;
+  color: $fg-color;
+  box-shadow: 0.5em 0.3em 0.3em darken($bg-color, 5%);
+
+  &:before {
+    display: block;
+    margin-bottom: 0.25em;
+  }
+}

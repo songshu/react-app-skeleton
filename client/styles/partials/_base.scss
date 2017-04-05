@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+  font-family: 'Exo', sans-serif;
+  font-size: 1em;
+  position: relative;
+}
+
+.page-content {
+  padding-top: 3em;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1.featured {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 160%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 120%;
+}

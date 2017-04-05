@@ -1,0 +1,25 @@
+//$bg-color: #3ba1df; 145068 01a983
+$bg-color: #145068;
+$fg-color: #fff;
+
+.titlebar {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background-color: $bg-color;
+  border-radius: 0 0 1em 1em;
+  text-align: center;
+}
+
+.titlebar h1 {
+  color: $fg-color;
+  font-size: 1.5em;
+
+  & span {
+    transform: rotateZ(125deg) ;
+    margin-right: 0.25em;
+    color: darken($fg-color, 15%);
+  }
+}
