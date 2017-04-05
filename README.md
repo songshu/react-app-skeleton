@@ -6,6 +6,7 @@ A simple boilerplate for starting out a web app using react js.
 
 ## Requirements:
 Node JS (https://nodejs.org/en/download/)
+
 Yarn package manager (install: https://yarnpkg.com/lang/en/docs/install/)
 
 ## Install dependencies:
