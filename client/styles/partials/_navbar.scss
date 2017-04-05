@@ -20,12 +20,12 @@ $fg-color: #fff;
   display: inline-block;
   list-style-type: none;
   padding: 0.5em 0em;
-  margin: 0 0.25% 0 0.25%;
-  width: 19%;
+  margin: 0 0.5% 0 0%;
+  width: 22%;
 
   border-radius: 0.5em;
   color: $fg-color;
-  box-shadow: 0.5em 0.3em 0.3em darken($bg-color, 5%);
+  box-shadow: 0.2em 0.3em 0.3em darken($bg-color, 10%);
 
   &:before {
     display: block;
